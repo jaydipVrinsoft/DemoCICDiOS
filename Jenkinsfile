@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git 'https://github.com/J0786/TestJenkinsCICD_Demo.git'
+                git 'https://github.com/jaydipVrinsoft/DemoCICDiOS.git'
             }
         }
         stage('Install Dependecies') {
